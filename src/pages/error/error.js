@@ -18,7 +18,7 @@ class Error extends React.Component {
 
     render() {
         var t = this;
-        let text = t.props.reminderText || '对不起，出错啦';
+        let text = t.props.reminderText || '对不起，该访问的页面不存在';
         return (
             <div className="error-page">
                 <div className="error-info">
